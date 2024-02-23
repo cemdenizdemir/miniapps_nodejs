@@ -1,0 +1,22 @@
+<%- include("./partials/header") %>
+    <link rel='stylesheet' href='/stylesheets/section.css' />
+    <%- include("./partials/sections") %>
+
+    <div class="page-content">
+        <div class="object-content">
+        <% Object.entries(objectDatas).forEach( ([key, value]) => { %>
+            <div class="title">
+                <h4><%= key %></h4>
+            </div>
+            
+            <div class="info">
+                <h5><%= value %></h5>
+            </div>
+            <br>
+        <% }) %>  
+        </div>
+    </div>
+    
+
+    
+<%- include("./partials/footer") %>

@@ -1,0 +1,14 @@
+<div class="box">
+    <% sections.forEach((section)=> { %>
+        <a href="/<%= section.tag %>">
+            <div class="border border-dark section-container">
+                <div class="img">
+                    <img src="<%= section.img %>">
+                </div>
+                <div class="name">
+                    <%= section.name %>
+                </div>
+            </div>
+        </a>
+        <% }) %>
+</div>

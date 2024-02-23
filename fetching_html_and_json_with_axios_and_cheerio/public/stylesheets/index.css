@@ -1,0 +1,31 @@
+.page-container {
+    text-align: center
+}
+
+.section-container {
+    width: 300px;
+    margin: 10px 10px 0 0
+}
+
+.section-container {
+    display:inline-block;
+}
+
+.section-container>* {
+    display: block;
+    text-align:center;
+}
+
+.img {
+    width:auto;
+    padding: 2px
+}
+
+img {
+    height: 100px;
+    
+}
+.name {
+    font-size: 30px
+}
+

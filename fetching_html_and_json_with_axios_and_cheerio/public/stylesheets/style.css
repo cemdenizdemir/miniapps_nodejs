@@ -1,0 +1,51 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  padding: 0;
+  background-color:rgba(230, 230, 14, 0.1) !important;
+}
+
+#page-title{
+  text-align: center;
+  margin-top: 20px
+}
+
+.page-container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.section-container:hover {
+  background-color: rgba(230, 230, 14, 0.1);
+}
+
+a {
+  color: inherit !important;
+  text-decoration: none !important
+}
+
+.object-content {
+  width: 500px;
+  margin-left:50%;
+  transform: translateX(-50%);
+  margin-bottom: 30px
+}
+
+.object-content > div {
+  display:block;
+  padding: 10px 30px
+}
+
+.object-content > .title {
+  background-color: rgba(230, 230, 14, 0.12)
+}
+
+.object-content > .info {
+  background-color: rgba(230, 230, 14, 0.08);
+  word-wrap: break-word
+}
+
+.page-content{
+  width: calc(100% - 235px);
+  display: inline-block;
+  margin-top:10px
+}

@@ -1,0 +1,16 @@
+<%- include("./partials/header") %>
+  <link rel='stylesheet' href='/stylesheets/section.css' />
+  <%- include("./partials/sections") %>
+
+    <div class="box page-content">
+
+      <% Object.values(sectionDatas).forEach(value=> { %>
+        <a href="/<%=sectionName%>/<%=value.id%>">
+          <div class="section-name">
+            <%= value.name %>
+          </div>
+        </a>
+        <% }) %>
+
+    </div>
+    <%- include("./partials/footer") %>
